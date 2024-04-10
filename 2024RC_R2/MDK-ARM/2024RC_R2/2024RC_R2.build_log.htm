@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=QF82M-XRNHA-ARFXW-Q5RGF-7YGST-VFV33
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  E:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\2024ROBOCON\¿ØÖÆ´úÂë\Qin\R2\test\2024RC_R2\MDK-ARM\2024RC_R2.uvprojx
+Project File Date:  03/29/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\Keil5\ARM\ARMCC\Bin'
+Build target '2024RC_R2'
+compiling freertos.c...
+compiling FSM.c...
+compiling body_controllers.c...
+..\USER\body_controllers.c(103): warning:  #550-D: variable "homeing_flag"  was set but never used
+      static  int8_t homeing_flag=0,cnt=0;
+..\USER\body_controllers.c(292): warning:  #111-D: statement is unreachable
+                      break;
+..\USER\body_controllers.c(298): warning:  #111-D: statement is unreachable
+                      break;    
+..\USER\body_controllers.c(304): warning:  #111-D: statement is unreachable
+                      break;                     
+..\USER\body_controllers.c(309): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\body_controllers.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=31012 RO-data=1116 RW-data=284 ZI-data=23740  
+FromELF: creating hex file...
+"2024RC_R2\2024RC_R2.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_2024RC_R2
+  E:\Keil5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  E:\Keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
